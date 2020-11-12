@@ -1,0 +1,190 @@
+/*font-family: 'Playfair Display', serif;*/
+/*font-family: 'Ubuntu', sans-serif;*/
+body{
+	margin:0;
+	padding: 0;
+	font-family: 'Playfair Display', serif;
+}
+/*header start*/
+header{
+	padding: 20px 0;
+}
+.container{
+	width: 90%;
+	/*border:1px solid red;*/
+	margin: 0 auto;
+	overflow:hidden;
+}
+.logo{
+	margin-top: 10px;
+    width: 13%;
+    float: left;
+    /*border: 1px solid red;*/
+
+}
+.logo img{
+	width: 100%;
+}
+.menu{
+	width: 70%;
+	float: right;
+	/*border:1px solid red;*/
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+    list-style: none;
+    float: left;
+}
+.menu ul li a{
+	font-family: 'Playfair Display', serif;
+	font-size:16px ;
+	font-weight:400;
+	color:#626262 ;
+	text-transform: uppercase;
+	margin: 0 50px;
+	text-decoration: none;
+	display: inline-block;
+	border-bottom: 1px solid transparent;
+	transition: .3s;
+
+}
+.menu ul li:last-child a{
+	margin-right: 0;
+}
+.menu ul li a:hover{
+	border-bottom: 1px solid #626262;
+}
+/*header end*/
+/*banner start*/
+.banner{}
+.b_wrapper{}
+.b_wrapper img{
+	width: 100%;
+}
+/*banner end*/
+/*perfect start*/
+.perfect{
+	padding: 50px 0;
+}
+.container2{
+	width: 80%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.perfect_content{}
+.perfect_content h1{
+    font-weight: 400;
+    font-size: 30px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.perfect_content p{
+	font-size: 14px;
+    line-height: 1.5;
+    word-spacing: 1px;
+    letter-spacing: 1.2px;
+    margin-bottom: 40px;
+}
+.common{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 14px;
+	color: #b4ad9e;
+	text-transform: uppercase;
+}
+
+/*perfect end*/
+/*blog start*/
+.blog{
+	padding: 80px 0;
+}
+.single{
+	width: 47%;
+	/*border: 1px solid;*/
+	float: left;
+	padding-bottom:50px 0;
+}
+.single:nth-child(even) {
+	margin-left: 6%;
+
+}
+.single img{
+	width: 100%;
+	margin-bottom: 20px;
+}
+.single h1{
+	font-weight: 400;
+	font-size: 30px;
+	margin:20px 0;
+
+}
+.single p:last-child{
+	font-size: 13px;
+    line-height: 1.5;
+}
+/*blog end*/
+/*newsletter start*/
+.newsletter{
+	padding: 50px 0;
+	background-color: #f0f0f0;
+}
+.container4{
+	width: 60%;
+	margin: 0 auto;
+}
+.singup{
+	text-align: center;
+}
+.singup h1{
+	font-size: 30px;
+	margin-bottom: 100px
+}
+.for_form{ 
+    width: 350px;
+    left: 0;
+    right: 0;
+    margin:0 auto;
+    position: relative;
+
+
+ }
+.for_form input{
+	border: none;
+	background: transparent;
+	border-bottom: 1px solid black;
+	width:400;
+	font-size: 18px;
+	padding: 10px 10px 10px 10px;
+	outline: none;
+}
+.for_form button{
+	border: none;
+	background: transparent;
+	position: absolute;
+	top: 5px;
+	right: 15px;
+}
+/*newsletter end*/
+.blog2{
+	padding: 90px 0;
+}
+.btn{
+
+}
+.container3{
+	text-align: center;
+}
+.container3 button{
+	padding: 30px 70px;
+	font-size: 24px;
+	border: none;
+	border: 1px solid #626262;
+	background: transparent;
+	transition: .5s
+}
+.container3 button:hover{
+	color: white;
+	background-color: #626262;
+	border: 1px solid #ffffff;
+}
